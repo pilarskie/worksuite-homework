@@ -19,6 +19,7 @@ describe('Worksuite Homework', () => {
     cy.url().should('eq', 'https://autotest.worksuite.com/marketplace/job-openings/create/')
     cy.get('input[placeholder="Job title"]').type('QA Engineer')
     cy.get('span[ng-show="!$ctrl.formSaving && !$ctrl.jobOpening.id"]').click()
+    cy.wait(5000)
     cy.get('.action-bar-title').should('have.text',' QA Engineer ')
   })
 })

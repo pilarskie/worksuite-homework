@@ -1,6 +1,7 @@
 {
     "baseUrl": "https://autotest.worksuite.com",
     "video": false,
+    "defaultCommandTimeout": 10000,
     "env": {
       "email": "eryk.pilarski@gmail.com",
       "password": "Jablko123!"
