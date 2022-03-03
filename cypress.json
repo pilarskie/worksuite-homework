@@ -1,1 +1,8 @@
-{}
+{
+    "baseUrl": "https://autotest.worksuite.com",
+    "video": false,
+    "env": {
+      "email": "eryk.pilarski@gmail.com",
+      "password": "Jablko123!"
+    }
+  }
